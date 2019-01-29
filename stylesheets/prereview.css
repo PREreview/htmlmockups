@@ -12,7 +12,10 @@ body {
 
 #header .nav {
   color: #fff;
-  
+}
+
+.nav {
+  max-height: 50px;
 }
 
 #header .login {
@@ -23,7 +26,8 @@ body {
 }
 
 .articles .footer a,
-.reviews .see-more {
+.reviews .see-more,
+.reviews .add {
   color: #f00;
   text-decoration: none;
 }
@@ -49,13 +53,11 @@ body {
   padding-left: 30px;
 }
 
-
-.content {
-  /* font-size: 0.930rem; */
-  /* line-height: 1.5; */
+.block {
+  height:300px;
+  background: url(../images/home.png);
+  background-size: cover;
 }
-
-
 
 /*   DANGER!!!  */
 /* everything below this line is for testing only */
